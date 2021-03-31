@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Projects\\ScoopPrototype\\Scoop\\Source\\Scoop\\Scoop.Build.cs",
+		"D:\\Unreal Projects\\ScoopPrototype\\Scoop\\Source\\Scoop.Target.cs",
+		"D:\\Unreal Projects\\ScoopPrototype\\Scoop\\Source\\ScoopEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

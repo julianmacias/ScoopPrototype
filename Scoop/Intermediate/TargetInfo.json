@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Scoop",
+			"Path": "D:\\Unreal Projects\\ScoopPrototype\\Scoop\\Source\\Scoop.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ScoopEditor",
+			"Path": "D:\\Unreal Projects\\ScoopPrototype\\Scoop\\Source\\ScoopEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
