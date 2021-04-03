@@ -6,13 +6,11 @@
 /NAME:"UE4Editor-Scoop.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\Unreal Projects\ScoopPrototype\Scoop\Intermediate\Build\Win64\ScoopEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"D:\Unreal Projects\ScoopPrototype\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\Scoop.cpp.obj"
-"D:\Unreal Projects\ScoopPrototype\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\ScoopCharacter.cpp.obj"
-"D:\Unreal Projects\ScoopPrototype\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\ScoopGameMode.cpp.obj"
-"D:\Unreal Projects\ScoopPrototype\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\Scoop.init.gen.cpp.obj"
-"D:\Unreal Projects\ScoopPrototype\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\ScoopCharacter.gen.cpp.obj"
-"D:\Unreal Projects\ScoopPrototype\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\ScoopGameMode.gen.cpp.obj"
-"D:\Unreal Projects\ScoopPrototype\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\Default.rc2.res"
-/OUT:"D:\Unreal Projects\ScoopPrototype\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\UE4Editor-Scoop.lib"
+"D:\Unreal Projects\Scoop\ScoopPrototype\Scoop\Intermediate\Build\Win64\ScoopEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal Projects\Scoop\ScoopPrototype\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\Scoop.cpp.obj"
+"D:\Unreal Projects\Scoop\ScoopPrototype\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\ScoopGameModeBase.cpp.obj"
+"D:\Unreal Projects\Scoop\ScoopPrototype\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\Scoop.init.gen.cpp.obj"
+"D:\Unreal Projects\Scoop\ScoopPrototype\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\ScoopGameModeBase.gen.cpp.obj"
+"D:\Unreal Projects\Scoop\ScoopPrototype\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\Default.rc2.res"
+/OUT:"D:\Unreal Projects\Scoop\ScoopPrototype\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\UE4Editor-Scoop.lib"
 /INCLUDE:IMPLEMENT_MODULE_Scoop

@@ -1,2 +1,2 @@
-D:\Unreal Projects\ScoopPrototype\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\Definitions.Scoop.h
-D:\Unreal Projects\ScoopPrototype\Scoop\Source\Scoop\Scoop.h
+D:\Unreal Projects\Scoop\ScoopPrototype\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\Definitions.Scoop.h
+D:\Unreal Projects\Scoop\ScoopPrototype\Scoop\Source\Scoop\Scoop.h

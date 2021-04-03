@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 public class ScoopEditorTarget : TargetRules
 {
-	public ScoopEditorTarget(TargetInfo Target) : base(Target)
+	public ScoopEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("Scoop");
+		ExtraModuleNames.AddRange( new string[] { "Scoop" } );
 	}
 }

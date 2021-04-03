@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Scoop.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{658967F0-AFFE-4A9D-AD38-348B2E1B822D}</UniqueIdentifier>
+      <UniqueIdentifier>{8F86B839-E9CF-48D2-8E53-83888CF86A51}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Scoop.Target.cs">
       <Filter>Source</Filter>
@@ -12,12 +12,9 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0197614E-C2DB-4CB0-A1ED-8B51812CF985}</UniqueIdentifier>
+      <UniqueIdentifier>{F690795F-4A1A-40E3-BCBF-16C166CB9BCD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -26,11 +23,8 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
     <Filter Include="Source\Scoop">
-      <UniqueIdentifier>{440B7D7A-824A-4516-8FC5-2FE0811617C5}</UniqueIdentifier>
+      <UniqueIdentifier>{BAF08CD4-D267-471E-8015-4023D0FA9C91}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Scoop\Scoop.Build.cs">
       <Filter>Source\Scoop</Filter>
@@ -41,16 +35,10 @@
     <ClInclude Include="..\..\Source\Scoop\Scoop.h">
       <Filter>Source\Scoop</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Scoop\ScoopCharacter.cpp">
+    <ClCompile Include="..\..\Source\Scoop\ScoopGameModeBase.cpp">
       <Filter>Source\Scoop</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Scoop\ScoopCharacter.h">
-      <Filter>Source\Scoop</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Scoop\ScoopGameMode.cpp">
-      <Filter>Source\Scoop</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Scoop\ScoopGameMode.h">
+    <ClInclude Include="..\..\Source\Scoop\ScoopGameModeBase.h">
       <Filter>Source\Scoop</Filter>
     </ClInclude>
   </ItemGroup>

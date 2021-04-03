@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 public class ScoopTarget : TargetRules
 {
-	public ScoopTarget(TargetInfo Target) : base(Target)
+	public ScoopTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("Scoop");
+		ExtraModuleNames.AddRange( new string[] { "Scoop" } );
 	}
 }
