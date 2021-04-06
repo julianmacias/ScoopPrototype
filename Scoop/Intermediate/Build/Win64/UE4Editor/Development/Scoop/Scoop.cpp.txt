@@ -1,2 +1,0 @@
-C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\Definitions.Scoop.h
-C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Source\Scoop\Scoop.h
