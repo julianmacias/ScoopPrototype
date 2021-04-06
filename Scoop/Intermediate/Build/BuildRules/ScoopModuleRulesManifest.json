@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Unreal Projects\\Scoop\\ScoopPrototype\\Scoop\\Source\\Scoop\\Scoop.Build.cs",
-		"D:\\Unreal Projects\\Scoop\\ScoopPrototype\\Scoop\\Source\\Scoop.Target.cs",
-		"D:\\Unreal Projects\\Scoop\\ScoopPrototype\\Scoop\\Source\\ScoopEditor.Target.cs"
+		"C:\\Users\\julia\\Documents\\Unreal Projects\\Scoop\\ScoopPortals\\Scoop\\Source\\Scoop\\Scoop.Build.cs",
+		"C:\\Users\\julia\\Documents\\Unreal Projects\\Scoop\\ScoopPortals\\Scoop\\Source\\Scoop.Target.cs",
+		"C:\\Users\\julia\\Documents\\Unreal Projects\\Scoop\\ScoopPortals\\Scoop\\Source\\ScoopEditor.Target.cs"
 	],
 	"EngineVersion": "4.25.4"
 }

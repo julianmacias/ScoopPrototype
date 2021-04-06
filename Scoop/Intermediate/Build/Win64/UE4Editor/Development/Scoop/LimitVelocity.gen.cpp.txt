@@ -1,0 +1,6 @@
+C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\Definitions.Scoop.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Source\Scoop/LimitVelocity.h
+C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Source\Scoop\HelperMacros.h
+C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Intermediate\Build\Win64\UE4Editor\Inc\Scoop\LimitVelocity.generated.h

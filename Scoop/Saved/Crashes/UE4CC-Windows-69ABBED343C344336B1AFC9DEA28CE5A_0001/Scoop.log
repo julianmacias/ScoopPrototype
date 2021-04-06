@@ -1,0 +1,892 @@
+﻿Log file open, 04/06/21 10:16:54
+LogInit: Display: Running engine for game: Scoop
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.624545
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Engine.ini]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[r.CustomDepth:3]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:1]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:1]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Engine.ini]
+[2021.04.06-08.16.56:150][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Engine.ini]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Engine.ini]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.06-08.16.56:150][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Engine.ini]
+[2021.04.06-08.16.56:150][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Engine.ini]
+[2021.04.06-08.16.56:154][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Scalability.ini]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Scalability.ini]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Scalability.ini]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Scalability.ini]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Scalability.ini]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Scalability.ini]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Scalability.ini]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Scalability.ini]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.06-08.16.56:154][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.06-08.16.56:155][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.06-08.16.56:155][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.06-08.16.56:155][  0]LogHAL: Display: Platform has ~ 16 GB [16992124928 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.06-08.16.56:156][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.06-08.16.56:156][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Scalability.ini]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Scalability.ini]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Scalability.ini]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Scalability.ini]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Scalability.ini]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Scalability.ini]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Scalability.ini]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Scalability.ini]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:1]]
+[2021.04.06-08.16.56:156][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.06-08.16.56:157][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.06-08.16.56:157][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.06-08.16.56:157][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.04.06-08.16.56:157][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Config/Windows/Engine.ini]
+[2021.04.06-08.16.56:158][  0]LogInit: Computer: MSI
+[2021.04.06-08.16.56:158][  0]LogInit: User: julia
+[2021.04.06-08.16.56:158][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.04.06-08.16.56:158][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.06-08.16.56:158][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2021.04.06-08.16.56:158][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.06-08.16.56:158][  0]LogMemory: Process Physical Memory: 119.80 MB used, 119.81 MB peak
+[2021.04.06-08.16.56:158][  0]LogMemory: Process Virtual Memory: 102.73 MB used, 102.73 MB peak
+[2021.04.06-08.16.56:158][  0]LogMemory: Physical Memory: 5704.96 MB used,  10499.99 MB free, 16204.95 MB total
+[2021.04.06-08.16.56:158][  0]LogMemory: Virtual Memory: 5210.20 MB used,  134212520.00 MB free, 134217728.00 MB total
+[2021.04.06-08.16.56:162][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.06-08.16.56:254][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.04.06-08.16.56:257][  0]LogInit: Using OS detected language (en-US).
+[2021.04.06-08.16.56:257][  0]LogInit: Using OS detected locale (en-US).
+[2021.04.06-08.16.56:272][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.04.06-08.16.56:505][  0]LogInit: Setting process to per monitor DPI aware
+[2021.04.06-08.16.56:578][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.06-08.16.56:578][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.06-08.16.58:870][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.06-08.16.58:870][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.06-08.16.58:870][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.06-08.16.58:870][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.06-08.16.59:486][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2021.04.06-08.16.59:486][  0]LogD3D11RHI:       8031/0/8102 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.04.06-08.16.59:507][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2021.04.06-08.16.59:507][  0]LogD3D11RHI:       128/0/8102 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.04.06-08.16.59:509][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.06-08.16.59:509][  0]LogD3D11RHI:       0/0/8102 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.06-08.16.59:509][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.06-08.16.59:523][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.06-08.16.59:523][  0]LogD3D11RHI:     GPU DeviceId: 0x1f14 (for the marketing name, search the web for "GPU Device Id")
+[2021.04.06-08.16.59:523][  0]LogWindows: EnumDisplayDevices:
+[2021.04.06-08.16.59:523][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2021.04.06-08.16.59:523][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2021.04.06-08.16.59:523][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2021.04.06-08.16.59:523][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.04.06-08.16.59:523][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.04.06-08.16.59:523][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.04.06-08.16.59:524][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.04.06-08.16.59:524][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.04.06-08.16.59:524][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2021.04.06-08.16.59:524][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2021.04.06-08.16.59:524][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2021.04.06-08.16.59:524][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2021.04.06-08.16.59:568][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.04.06-08.16.59:569][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.06-08.16.59:569][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.04.06-08.16.59:591][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.04.06-08.16.59:835][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.06-08.16.59:856][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.06-08.16.59:856][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.06-08.16.59:856][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.06-08.16.59:856][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.06-08.16.59:856][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.06-08.16.59:856][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.06-08.16.59:856][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.06-08.16.59:856][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.06-08.16.59:856][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.06-08.16.59:856][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.06-08.16.59:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.06-08.16.59:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.06-08.16.59:901][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.04.06-08.16.59:911][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.04.06-08.16.59:921][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.04.06-08.16.59:930][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.04.06-08.16.59:941][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.04.06-08.16.59:951][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.04.06-08.16.59:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.04.06-08.16.59:991][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.06-08.16.59:991][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.06-08.17.00:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.06-08.17.00:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.06-08.17.00:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.06-08.17.00:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.06-08.17.00:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.06-08.17.00:048][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.06-08.17.00:048][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.06-08.17.00:059][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.06-08.17.00:137][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Intermediate/Shaders/WorkingDirectory/23080/).
+[2021.04.06-08.17.00:137][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/julia/AppData/Local/Temp/UnrealShaderWorkingDir/40C71B8D472D81935BDF9CA8D5079794/'.
+[2021.04.06-08.17.00:138][  0]LogXGEController: Cleaning working directory: C:/Users/julia/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.04.06-08.17.00:138][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.04.06-08.17.00:138][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.06-08.17.00:138][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.06-08.17.02:699][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.06-08.17.02:810][  0]LogDerivedDataCache: Loaded boot cache 0.11s 112MB C:/Users/julia/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.06-08.17.02:810][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/julia/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.04.06-08.17.02:810][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.06-08.17.02:810][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.06-08.17.02:810][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.06-08.17.02:810][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.04.06-08.17.02:819][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.06-08.17.02:819][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.06-08.17.02:819][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.04.06-08.17.02:820][  0]LogDerivedDataCache: Using Local data cache path C:/Users/julia/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.04.06-08.17.02:820][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.06-08.17.02:820][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.06-08.17.03:075][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.06-08.17.03:091][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.06-08.17.03:122][  0]LogAssetRegistry: FAssetRegistry took 0.0034 seconds to start up
+[2021.04.06-08.17.03:390][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.06-08.17.03:643][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.06-08.17.03:643][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.06-08.17.03:643][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.06-08.17.03:643][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.06-08.17.03:643][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.06-08.17.03:695][  0]LogNetVersion: Scoop 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2903236128)
+[2021.04.06-08.17.05:079][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002C79F14E9C0), frame # 0
+[2021.04.06-08.17.05:079][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002C79EFD6AC0), frame # 0
+[2021.04.06-08.17.05:082][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002C79F029C00), frame # 0
+[2021.04.06-08.17.05:146][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.035880 seconds
+[2021.04.06-08.17.05:150][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.04.06-08.17.05:150][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.04.06-08.17.05:150][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.06-08.17.06:066][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.06-08.17.06:072][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.06-08.17.06:228][  0]SourceControl: Source control is disabled
+[2021.04.06-08.17.06:228][  0]SourceControl: Source control is disabled
+[2021.04.06-08.17.06:236][  0]SourceControl: Source control is disabled
+[2021.04.06-08.17.06:241][  0]SourceControl: Source control is disabled
+[2021.04.06-08.17.06:249][  0]SourceControl: Source control is disabled
+[2021.04.06-08.17.06:593][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.06-08.17.06:613][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.06-08.17.06:613][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.06-08.17.06:715][  0]LogOcInput: OculusInput pre-init called
+[2021.04.06-08.17.07:061][  0]LogClass: Warning: FCharacterSettings::mouseMovement is not initialized properly
+[2021.04.06-08.17.07:061][  0]LogClass: Warning: FCharacterSettings::movementDir is not initialized properly
+[2021.04.06-08.17.07:061][  0]LogClass: Warning: FCharacterSettings::linVelocity is not initialized properly
+[2021.04.06-08.17.07:061][  0]LogClass: Warning: FCharacterSettings::rotVelocity is not initialized properly
+[2021.04.06-08.17.07:061][  0]LogClass: Display: 4 Uninitialized script stuct members found
+[2021.04.06-08.17.07:064][  0]LogAutomationTest: Warning: FCharacterSettings::mouseMovement is not initialized properly
+[2021.04.06-08.17.07:064][  0]LogAutomationTest: Warning: FCharacterSettings::movementDir is not initialized properly
+[2021.04.06-08.17.07:064][  0]LogAutomationTest: Warning: FCharacterSettings::linVelocity is not initialized properly
+[2021.04.06-08.17.07:064][  0]LogAutomationTest: Warning: FCharacterSettings::rotVelocity is not initialized properly
+[2021.04.06-08.17.07:066][  0]LogEngine: Initializing Engine...
+[2021.04.06-08.17.07:067][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.06-08.17.07:067][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.04.06-08.17.07:069][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2021.04.06-08.17.07:546][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.06-08.17.07:572][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.04.06-08.17.07:572][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002C7A8F8E600), frame # 0
+[2021.04.06-08.17.07:573][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002C7A8F93B00), frame # 0
+[2021.04.06-08.17.07:580][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.06-08.17.07:580][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.06-08.17.07:580][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.04.06-08.17.07:580][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.04.06-08.17.07:580][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.04.06-08.17.07:580][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.06-08.17.07:580][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.06-08.17.07:580][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.06-08.17.07:581][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.06-08.17.07:581][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.06-08.17.07:602][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.06-08.17.07:602][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.06-08.17.08:299][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.04.06-08.17.08:303][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.06-08.17.08:323][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.06-08.17.08:323][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.06-08.17.08:324][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.06-08.17.08:324][  0]LogInit: FAudioDevice initialized.
+[2021.04.06-08.17.08:326][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.06-08.17.08:394][  0]LogDerivedDataCache: Saved boot cache 0.07s 131MB C:/Users/julia/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.06-08.17.08:397][  0]LogInit: Texture streaming: Enabled
+[2021.04.06-08.17.08:418][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.04.06-08.17.08:418][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.04.06-08.17.08:418][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.04.06-08.17.08:557][  0]LogInit: Transaction tracking system initialized
+[2021.04.06-08.17.08:591][  0]BlueprintLog: New page: Editor Load
+[2021.04.06-08.17.08:711][  0]LocalizationService: Localization service is disabled
+[2021.04.06-08.17.09:217][  0]LogFileCache: Scanning file cache for directory 'C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Content/' took 0.00s
+[2021.04.06-08.17.09:218][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.04.06-08.17.09:218][  0]LogCook: Display: Mobile HDR setting 1
+[2021.04.06-08.17.09:669][  0]SourceControl: Source control is disabled
+[2021.04.06-08.17.09:669][  0]LogUnrealEdMisc: Loading editor; pre map load, took 19.189
+[2021.04.06-08.17.09:669][  0]Cmd: MAP LOAD FILE="../../../../../../Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Content/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.06-08.17.09:670][  0]LightingResults: New page: Lighting Build
+[2021.04.06-08.17.09:675][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.06-08.17.09:675][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.06-08.17.09:676][  0]MapCheck: New page: Map Check
+[2021.04.06-08.17.09:676][  0]LightingResults: New page: Lighting Build
+[2021.04.06-08.17.09:692][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002C7A8F8E600), frame # 0
+[2021.04.06-08.17.09:692][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002C7A8F93B00), frame # 0
+[2021.04.06-08.17.09:693][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.04.06-08.17.09:939][  0]LogAIModule: Creating AISystem for world TestMap
+[2021.04.06-08.17.09:939][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002C78CA2B200), frame # 0
+[2021.04.06-08.17.09:939][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002C78CAD1440), frame # 0
+[2021.04.06-08.17.09:958][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.06-08.17.09:971][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2021.04.06-08.17.09:971][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.06-08.17.09:972][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.373ms to complete.
+[2021.04.06-08.17.09:972][  0]LogFileHelpers: Loading map 'TestMap' took 0.302
+[2021.04.06-08.17.09:997][  0]LogUnrealEdMisc: Total Editor Startup Time, took 19.516
+[2021.04.06-08.17.10:111][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.06-08.17.10:116][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.06-08.17.10:121][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.06-08.17.10:126][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.06-08.17.10:138][  0]LogCollectionManager: Loaded 0 collections in 0.001241 seconds
+[2021.04.06-08.17.10:162][  0]LogFileCache: Scanning file cache for directory 'C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/Collections/' took 0.00s
+[2021.04.06-08.17.10:162][  0]LogFileCache: Scanning file cache for directory 'C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Content/Developers/julia/Collections/' took 0.00s
+[2021.04.06-08.17.10:162][  0]LogFileCache: Scanning file cache for directory 'C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Content/Collections/' took 0.00s
+[2021.04.06-08.17.10:162][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3432 classes and 823 folders.
+[2021.04.06-08.17.10:171][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.06-08.17.10:525][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.06-08.17.10:531][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.04.06-08.17.10:662][  0]LogSlate: Took 0.006400 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.06-08.17.10:670][  0]LogSlate: Took 0.005457 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.04.06-08.17.10:678][  0]LogSlate: Took 0.004702 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.04.06-08.17.10:770][  0]LogRenderer: Reallocating scene render targets to support 992x456 Format 10 NumSamples 1 (Frame:1).
+[2021.04.06-08.17.10:950][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.06-08.17.10:950][  0]LogLoad: (Engine Initialization) Total time: 20.47 seconds
+[2021.04.06-08.17.10:950][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.06-08.17.10:981][  0]LogAssetRegistry: Asset discovery search completed in 7.8592 seconds
+[2021.04.06-08.17.10:984][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.04.06-08.17.10:986][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2021.04.06-08.17.11:015][  0]LogSlate: Took 0.005383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.06-08.17.11:970][113]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.06-08.17.20:178][ 61]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2021.04.06-08.17.20:179][ 61]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2021.04.06-08.17.20:206][ 61]LogSlate: Took 0.006001 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.04.06-08.17.26:674][816]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.04.06-08.17.33:065][575]Running C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Scoop.uproject" -game -rocket -progress
+[2021.04.06-08.17.33:370][575]Discovering modules, targets and source code for project...
+[2021.04.06-08.17.35:690][575]Binding IntelliSense data...
+[2021.04.06-08.17.41:835][575]Binding IntelliSense data... 100%
+[2021.04.06-08.17.41:835][575]Writing project files...
+[2021.04.06-08.17.45:659][575]Writing project files... 100%
+[2021.04.06-08.17.45:762][575]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2021.04.06-08.17.45:766][575]Candidate modules for hot reload:
+[2021.04.06-08.17.45:766][575]  Scoop
+[2021.04.06-08.17.45:766][575]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Scoop,284 ScoopEditor Win64 Development -Project="C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Scoop.uproject" "C:/Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Scoop.uproject"  -IgnoreJunk]
+[2021.04.06-08.18.10:425][575]CompilerResultsLog: New page: Compilation - Apr 6, 2021, 12:18:10 PM
+[2021.04.06-08.18.10:425][575]CompilerResultsLog: Creating makefile for ScoopEditor (no existing makefile)
+[2021.04.06-08.18.10:425][575]CompilerResultsLog: Parsing headers for ScoopEditor
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Scoop.uproject" "C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Intermediate\Build\Win64\ScoopEditor\Development\ScoopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\julia\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.04.06-08.18.10:425][575]CompilerResultsLog: Reflection code generated for ScoopEditor in 18.032782 seconds
+[2021.04.06-08.18.10:425][575]CompilerResultsLog: Building ScoopEditor...
+[2021.04.06-08.18.10:425][575]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.04.06-08.18.10:425][575]CompilerResultsLog: Building 17 actions with 12 processes...
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [1/17] PortalCharacter.cpp
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [2/17] Scoop.cpp
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [3/17] Scoop.init.gen.cpp
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [4/17] PortalPlayer.cpp
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [5/17] LimitVelocity.cpp
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [6/17] BetterPortalsGameModeBase.gen.cpp
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [7/17] PortalCharacter.gen.cpp
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [8/17] PortalPawn.gen.cpp
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [9/17] Portal.gen.cpp
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [10/17] BetterPortalsGameModeBase.cpp
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [11/17] PortalPawn.cpp
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [12/17] Portal.cpp
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Source\Scoop\Portal.cpp(259): warning C4996: 'AActor::GetComponentsByClass': Use one of the GetComponents implementations as appropriate Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Source\Scoop\Portal.cpp(556): warning C4996: 'UWorld::ForceGarbageCollection': Call GEngine->ForceGarbageCollection instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Source\Scoop\Portal.cpp(569): warning C4996: 'AActor::GetComponentsByClass': Use one of the GetComponents implementations as appropriate Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [13/17] PortalPlayer.gen.cpp
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [14/17] LimitVelocity.gen.cpp
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [15/17] UE4Editor-Scoop-0284.lib
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:      Creating library C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\UE4Editor-Scoop-0284.lib and object C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\UE4Editor-Scoop-0284.exp
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [16/17] UE4Editor-Scoop-0284.dll
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:      Creating library C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\UE4Editor-Scoop-0284.suppressed.lib and object C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\UE4Editor-Scoop-0284.suppressed.exp
+[2021.04.06-08.18.10:425][575]CompilerResultsLog:   [17/17] ScoopEditor.target
+[2021.04.06-08.18.10:425][575]CompilerResultsLog: Total time in Parallel executor: 4.75 seconds
+[2021.04.06-08.18.10:425][575]CompilerResultsLog: Total execution time: 24.60 seconds
+[2021.04.06-08.18.10:425][575]LogMainFrame: MainFrame: Module compiling took 24.662 seconds
+[2021.04.06-08.18.10:438][575]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 3432 classes and 823 folders.
+[2021.04.06-08.18.10:438][575]Display: HotReload took 24.7s.
+[2021.04.06-08.18.10:438][575]Warning: HotReload operation took 24.7s.
+[2021.04.06-08.18.10:526][575]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.04.06-08.18.10:531][575]LogHotReload: New module detected: UE4Editor-Scoop-0284.dll
+[2021.04.06-08.18.10:593][576]LogHotReload: Starting Hot-Reload from IDE
+[2021.04.06-08.18.10:711][576]LogClass: Could not find existing class PortalCharacter in package /Script/Scoop for HotReload, assuming new class
+[2021.04.06-08.18.10:712][576]LogClass: EMovementState HotReload.
+[2021.04.06-08.18.10:712][576]LogClass: PostPhysicsTick HotReload.
+[2021.04.06-08.18.10:712][576]LogClass: TrackedActor HotReload.
+[2021.04.06-08.18.10:712][576]LogClass: CharacterDebugSettings HotReload.
+[2021.04.06-08.18.10:712][576]LogClass: CrouchLerp HotReload.
+[2021.04.06-08.18.10:712][576]LogClass: CharacterSettings HotReload.
+[2021.04.06-08.18.10:716][576]LogContentBrowser: Native class hierarchy updated for 'Scoop' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2021.04.06-08.18.10:717][576]Display: HotReload successful (30 functions remapped  5 scriptstructs remapped)
+[2021.04.06-08.18.10:758][576]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3433 classes and 823 folders.
+[2021.04.06-08.18.10:759][576]Display: HotReload took  0.2s.
+[2021.04.06-08.18.11:520][579]LogHttp: Warning: 000002C7CB341D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.18.11:520][579]LogHttp: Warning: 000002C7CB341D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.18.11:520][579]LogHttp: Warning: 000002C7CB341D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.18.11:520][579]LogHttp: Warning: 000002C7CB341D00: libcurl info message cache 1 (Closing connection 0)
+[2021.04.06-08.18.11:856][580]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.20.12:321][908]LogHttp: Warning: 000002C7CFFDAB00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.20.12:321][908]LogHttp: Warning: 000002C7CFFDAB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.20.12:321][908]LogHttp: Warning: 000002C7CFFDAB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.20.12:321][908]LogHttp: Warning: 000002C7CFFDAB00: libcurl info message cache 1 (Closing connection 1)
+[2021.04.06-08.20.12:321][908]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.22.12:859][268]LogHttp: Warning: 000002C7CB342400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.22.12:859][268]LogHttp: Warning: 000002C7CB342400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.22.12:859][268]LogHttp: Warning: 000002C7CB342400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.22.12:860][268]LogHttp: Warning: 000002C7CB342400: libcurl info message cache 1 (Closing connection 2)
+[2021.04.06-08.22.12:860][268]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.24.13:295][628]LogHttp: Warning: 000002C7CB342400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.24.13:295][628]LogHttp: Warning: 000002C7CB342400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.24.13:295][628]LogHttp: Warning: 000002C7CB342400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.24.13:295][628]LogHttp: Warning: 000002C7CB342400: libcurl info message cache 1 (Closing connection 3)
+[2021.04.06-08.24.13:295][628]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.26.13:805][988]LogHttp: Warning: 000002C7CB342400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.26.13:805][988]LogHttp: Warning: 000002C7CB342400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.26.13:805][988]LogHttp: Warning: 000002C7CB342400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.26.13:805][988]LogHttp: Warning: 000002C7CB342400: libcurl info message cache 1 (Closing connection 4)
+[2021.04.06-08.26.13:806][988]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.28.14:411][348]LogHttp: Warning: 000002C7CB342400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.28.14:411][348]LogHttp: Warning: 000002C7CB342400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.28.14:411][348]LogHttp: Warning: 000002C7CB342400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.28.14:411][348]LogHttp: Warning: 000002C7CB342400: libcurl info message cache 1 (Closing connection 5)
+[2021.04.06-08.28.14:411][348]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.30.14:959][708]LogHttp: Warning: 000002C7CB342400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.30.14:959][708]LogHttp: Warning: 000002C7CB342400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.30.14:959][708]LogHttp: Warning: 000002C7CB342400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.30.14:959][708]LogHttp: Warning: 000002C7CB342400: libcurl info message cache 1 (Closing connection 6)
+[2021.04.06-08.30.14:959][708]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.32.15:525][ 68]LogHttp: Warning: 000002C7CB342400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.32.15:525][ 68]LogHttp: Warning: 000002C7CB342400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.32.15:525][ 68]LogHttp: Warning: 000002C7CB342400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.32.15:525][ 68]LogHttp: Warning: 000002C7CB342400: libcurl info message cache 1 (Closing connection 7)
+[2021.04.06-08.32.15:526][ 68]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.34.16:092][428]LogHttp: Warning: 000002C7CB342400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.34.16:092][428]LogHttp: Warning: 000002C7CB342400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.34.16:092][428]LogHttp: Warning: 000002C7CB342400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.34.16:092][428]LogHttp: Warning: 000002C7CB342400: libcurl info message cache 1 (Closing connection 8)
+[2021.04.06-08.34.16:092][428]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.36.16:607][788]LogHttp: Warning: 000002C7CB342400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.36.16:607][788]LogHttp: Warning: 000002C7CB342400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.36.16:607][788]LogHttp: Warning: 000002C7CB342400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.36.16:607][788]LogHttp: Warning: 000002C7CB342400: libcurl info message cache 1 (Closing connection 9)
+[2021.04.06-08.36.16:607][788]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.36.37:595][190]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.04.06-08.36.42:907][190]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.04.06-08.36.49:521][957]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameObjects/Player/BP_PortalCharacter.BP_PortalCharacter
+[2021.04.06-08.36.50:015][957]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2021.04.06-08.36.56:131][506]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Saved/BP_PortalCharacter0C59A4BE4AFFAC430CB89FBCFC6D8FC9.tmp' to '../../../../../../Users/julia/Documents/Unreal Projects/Scoop/ScoopPortals/Scoop/Content/GameObjects/Player/BP_PortalCharacter.uasset'
+[2021.04.06-08.36.56:147][506]AssetCheck: New page: Asset Save: BP_PortalCharacter
+[2021.04.06-08.36.56:147][506]LogContentValidation: Display: Validating Blueprint /Game/GameObjects/Player/BP_PortalCharacter.BP_PortalCharacter
+[2021.04.06-08.38.16:985][189]LogHttp: Warning: 000002C7B55A6400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.38.16:985][189]LogHttp: Warning: 000002C7B55A6400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.38.16:985][189]LogHttp: Warning: 000002C7B55A6400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.38.16:985][189]LogHttp: Warning: 000002C7B55A6400: libcurl info message cache 1 (Closing connection 10)
+[2021.04.06-08.38.17:322][190]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.40.17:882][550]LogHttp: Warning: 000002C7B55A6400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.40.17:882][550]LogHttp: Warning: 000002C7B55A6400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.40.17:882][550]LogHttp: Warning: 000002C7B55A6400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.40.17:882][550]LogHttp: Warning: 000002C7B55A6400: libcurl info message cache 1 (Closing connection 11)
+[2021.04.06-08.40.17:882][550]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.42.18:439][910]LogHttp: Warning: 000002C7B55A6400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.42.18:439][910]LogHttp: Warning: 000002C7B55A6400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.42.18:439][910]LogHttp: Warning: 000002C7B55A6400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.42.18:439][910]LogHttp: Warning: 000002C7B55A6400: libcurl info message cache 1 (Closing connection 12)
+[2021.04.06-08.42.18:439][910]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.44.18:963][270]LogHttp: Warning: 000002C7B55A6400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.44.18:963][270]LogHttp: Warning: 000002C7B55A6400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.44.18:963][270]LogHttp: Warning: 000002C7B55A6400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.44.18:963][270]LogHttp: Warning: 000002C7B55A6400: libcurl info message cache 1 (Closing connection 13)
+[2021.04.06-08.44.18:963][270]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.46.19:444][630]LogHttp: Warning: 000002C7B55A6400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.46.19:444][630]LogHttp: Warning: 000002C7B55A6400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.46.19:444][630]LogHttp: Warning: 000002C7B55A6400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.46.19:445][630]LogHttp: Warning: 000002C7B55A6400: libcurl info message cache 1 (Closing connection 14)
+[2021.04.06-08.46.19:445][630]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.48.20:014][990]LogHttp: Warning: 000002C7B55A6400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.48.20:014][990]LogHttp: Warning: 000002C7B55A6400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.48.20:014][990]LogHttp: Warning: 000002C7B55A6400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.48.20:014][990]LogHttp: Warning: 000002C7B55A6400: libcurl info message cache 1 (Closing connection 15)
+[2021.04.06-08.48.20:015][990]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.50.20:547][350]LogHttp: Warning: 000002C7B55A6400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.50.20:547][350]LogHttp: Warning: 000002C7B55A6400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.50.20:547][350]LogHttp: Warning: 000002C7B55A6400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.50.20:547][350]LogHttp: Warning: 000002C7B55A6400: libcurl info message cache 1 (Closing connection 16)
+[2021.04.06-08.50.20:547][350]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.51.00:033][673]LogSlate: Took 0.009607 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.04.06-08.52.21:045][255]LogHttp: Warning: 000002C822E42B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.52.21:045][255]LogHttp: Warning: 000002C822E42B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.52.21:045][255]LogHttp: Warning: 000002C822E42B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.52.21:045][255]LogHttp: Warning: 000002C822E42B00: libcurl info message cache 1 (Closing connection 17)
+[2021.04.06-08.52.21:378][256]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.54.21:938][617]LogHttp: Warning: 000002C822E42B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.54.21:939][617]LogHttp: Warning: 000002C822E42B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.54.21:939][617]LogHttp: Warning: 000002C822E42B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.54.21:939][617]LogHttp: Warning: 000002C822E42B00: libcurl info message cache 1 (Closing connection 18)
+[2021.04.06-08.54.22:272][618]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.56.22:872][698]LogHttp: Warning: 000002C81DC90100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.56.22:872][698]LogHttp: Warning: 000002C81DC90100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.56.22:872][698]LogHttp: Warning: 000002C81DC90100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.56.22:872][698]LogHttp: Warning: 000002C81DC90100: libcurl info message cache 1 (Closing connection 19)
+[2021.04.06-08.56.22:872][698]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-08.58.23:413][ 59]LogHttp: Warning: 000002C81DC90100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-08.58.23:413][ 59]LogHttp: Warning: 000002C81DC90100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-08.58.23:413][ 59]LogHttp: Warning: 000002C81DC90100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-08.58.23:413][ 59]LogHttp: Warning: 000002C81DC90100: libcurl info message cache 1 (Closing connection 20)
+[2021.04.06-08.58.23:749][ 60]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-09.00.24:313][420]LogHttp: Warning: 000002C81DC90100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.06-09.00.24:313][420]LogHttp: Warning: 000002C81DC90100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.04.06-09.00.24:313][420]LogHttp: Warning: 000002C81DC90100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.04.06-09.00.24:313][420]LogHttp: Warning: 000002C81DC90100: libcurl info message cache 1 (Closing connection 21)
+[2021.04.06-09.00.24:313][420]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE283295-4CB9-7F20-BAF9-50BF91811E83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=987761e04c3be1c7e8ec69bb0cc69623%7Cdf0081b157424d6eaa611cd509b7ca1d%7Cf2829340-a1f9-43d0-902d-a6f8cd32a504&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.06-09.01.27:971][609]LogHotReload: New module detected: UE4Editor-Scoop-0010.dll
+[2021.04.06-09.01.28:661][612]LogHotReload: Starting Hot-Reload from IDE
+[2021.04.06-09.01.28:745][612]LogClass: Could not find existing class Portal in package /Script/Scoop for HotReload, assuming new class
+[2021.04.06-09.01.28:745][612]LogClass: Function ClearPortalView is new.
+[2021.04.06-09.01.28:745][612]LogClass: Function ConvertDirectionToTarget is new.
+[2021.04.06-09.01.28:745][612]LogClass: Function ConvertLocationToPortal is new.
+[2021.04.06-09.01.28:745][612]LogClass: Function ConvertRotationToPortal is new.
+[2021.04.06-09.01.28:745][612]LogClass: Function GetDuplicateMap is new.
+[2021.04.06-09.01.28:745][612]LogClass: Function GetNumberOfTrackedActors is new.
+[2021.04.06-09.01.28:745][612]LogClass: Function IsActive is new.
+[2021.04.06-09.01.28:745][612]LogClass: Function IsInfront is new.
+[2021.04.06-09.01.28:745][612]LogClass: Function LocationInsidePortal is new.
+[2021.04.06-09.01.28:745][612]LogClass: Function OnPortalBoxOverlapEnd is new.
+[2021.04.06-09.01.28:745][612]LogClass: Function OnPortalBoxOverlapStart is new.
+[2021.04.06-09.01.28:745][612]LogClass: Function OnPortalMeshOverlapEnd is new.
+[2021.04.06-09.01.28:745][612]LogClass: Function OnPortalMeshOverlapStart is new.
+[2021.04.06-09.01.28:745][612]LogClass: Function SetActive is new.
+[2021.04.06-09.01.28:745][612]LogClass: Function Setup is new.
+[2021.04.06-09.01.28:745][612]LogClass: Function UpdatePortalView is new.
+[2021.04.06-09.01.28:746][612]LogClass: Could not find existing class PortalCharacter in package /Script/Scoop for HotReload, assuming new class
+[2021.04.06-09.01.28:748][612]LogClass: EMovementState HotReload.
+[2021.04.06-09.01.28:748][612]LogClass: PostPhysicsTick HotReload.
+[2021.04.06-09.01.28:748][612]LogClass: TrackedActor HotReload.
+[2021.04.06-09.01.28:748][612]LogClass: CharacterDebugSettings HotReload.
+[2021.04.06-09.01.28:748][612]LogClass: CrouchLerp HotReload.
+[2021.04.06-09.01.28:748][612]LogClass: CharacterSettings HotReload.
+[2021.04.06-09.01.28:755][612]LogHotReload: Re-instancing Portal after hot-reload.
+[2021.04.06-09.01.28:804][612]LogHotReload: Re-instancing PortalCharacter after hot-reload.
+[2021.04.06-09.01.28:852][612]LogContentBrowser: Native class hierarchy updated for 'Scoop' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2021.04.06-09.01.28:854][612]Display: HotReload successful (14 functions remapped  5 scriptstructs remapped)
+[2021.04.06-09.01.28:914][612]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 3433 classes and 823 folders.
+[2021.04.06-09.01.28:915][612]Display: HotReload took  0.3s.
+[2021.04.06-09.01.37:033][636]LogHotReload: New module detected: UE4Editor-Scoop-0011.dll
+[2021.04.06-09.01.37:717][639]LogHotReload: Starting Hot-Reload from IDE
+[2021.04.06-09.01.37:749][639]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.04.06-09.01.37:749][639]LogWindows: Windows GetLastError: The operation completed successfully. (0)

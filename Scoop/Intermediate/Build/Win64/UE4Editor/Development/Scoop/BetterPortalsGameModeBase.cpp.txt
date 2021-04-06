@@ -1,0 +1,15 @@
+C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Intermediate\Build\Win64\UE4Editor\Development\Scoop\Definitions.Scoop.h
+C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Source\Scoop\BetterPortalsGameModeBase.h
+C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Source\Scoop\Portal.h
+C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Source\Scoop\HelperMacros.h
+C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Intermediate\Build\Win64\UE4Editor\Inc\Scoop\Portal.generated.h
+C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Source\Scoop\PortalPawn.h
+C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Intermediate\Build\Win64\UE4Editor\Inc\Scoop\PortalPawn.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\julia\Documents\Unreal Projects\Scoop\ScoopPortals\Scoop\Intermediate\Build\Win64\UE4Editor\Inc\Scoop\BetterPortalsGameModeBase.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\EngineUtils.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
