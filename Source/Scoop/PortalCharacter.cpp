@@ -9,6 +9,9 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "GameFramework/Character.h"
+#include "GameFramework/PlayerController.h"
+#include "Kismet/GameplayStatics.h"
 #include "Portal.h"
 
 DECLARE_LOG_CATEGORY_EXTERN(LogPortalCharacter, Log, All);
@@ -42,7 +45,7 @@ void APortalCharacter::BeginPlay()
 void APortalCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	if (orientation) ReturnToOrientation();
 }
 
 // Called to bind functionality to input
@@ -52,11 +55,37 @@ void APortalCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 }
 
-void APortalCharacter::PortalTeleport(APortal* targetPortal)
+void APortalCharacter::SaveVelocity() {
+	savedVelocity = GetCharacterMovement()->Velocity;
+}
+void APortalCharacter::PortalTeleport(APortal* targetPortal, APortal* originPortal)
 {
 	// Start timer to return the player to the correct orientation relative to the world.
 	orientationStart = GetWorld()->GetTimeSeconds();
 	orientationAtStart = GetCapsuleComponent()->GetComponentRotation();
 	orientation = true;
+
+	FRotator currentOrientation = GetCapsuleComponent()->GetComponentRotation();
+	GetWorld()->GetFirstPlayerController()->SetControlRotation(currentOrientation);
+
+	FVector Dots;
+	Dots.X = FVector::DotProduct(savedVelocity, originPortal->GetActorForwardVector());
+	Dots.Y = FVector::DotProduct(savedVelocity, originPortal->GetActorRightVector());
+	Dots.Z = FVector::DotProduct(savedVelocity, originPortal->GetActorUpVector());
+
+	FVector NewVelocity = Dots.X * targetPortal->GetActorForwardVector()
+		+ Dots.Y * targetPortal->GetActorRightVector()
+		+ Dots.Z * targetPortal->GetActorUpVector();
+
+	GetMovementComponent()->Velocity = NewVelocity;
 }
 
+void APortalCharacter::ReturnToOrientation()
+{
+	float alpha = (GetWorld()->GetTimeSeconds() - orientationStart) / orientationCorrectionTime;
+	FRotator currentOrientation = GetCapsuleComponent()->GetComponentRotation();
+	FQuat target = FRotator(0.0f, currentOrientation.Yaw, 0.0f).Quaternion();
+	FQuat newOrientation = FQuat::Slerp(currentOrientation.Quaternion(), target, alpha);
+	GetCapsuleComponent()->SetWorldRotation(newOrientation.Rotator(), false, nullptr, ETeleportType::TeleportPhysics);
+	if (alpha >= 1.0f) orientation = false;
+}

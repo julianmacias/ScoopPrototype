@@ -20,19 +20,25 @@ public:
 	/* Game/Player Camera. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class UCameraComponent* camera;
-
 public:
 	// Sets default values for this character's properties
 	APortalCharacter();
 
 	/* Ran from portal to a character when teleporting. Do any extra work in the player class after teleporting. */
-	void PortalTeleport(class APortal* targetPortal);
+	void PortalTeleport(class APortal* targetPortal, class APortal* originPortal);
 
+	void SaveVelocity();
+
+	/* Timer function to return the player to the correct orientation after a teleport event from a portal class. */
+	UFUNCTION(Category = "Movement")
+		void ReturnToOrientation();
 private:
 
 	FRotator orientationAtStart; // Rotation of the capsule at the start of re-orientation.
 	float orientationStart; // Start time of the orientation update func.
 	bool orientation;
+	FVector savedVelocity;
+	float orientationCorrectionTime = 1.8f;
 
 protected:
 	// Called when the game starts or when spawned

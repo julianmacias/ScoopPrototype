@@ -5,7 +5,6 @@
 #include "Components/SceneCaptureComponent2D.h"
 #include "Components/BoxComponent.h"
 #include "PhysicsEngine/PhysicsHandleComponent.h"
-#include "GameFramework/PlayerController.h"
 #include "Materials/MaterialInstanceDynamic.h"
 #include "UObject/UObjectGlobals.h"
 #include "Engine/CanvasRenderTarget2D.h"
@@ -21,7 +20,6 @@
 #include "Engine/StaticMesh.h"
 #include "TimerManager.h"
 #include "BetterPortalsGameModeBase.h"
-#include "Kismet/GameplayStatics.h"
 
 DEFINE_LOG_CATEGORY(LogPortal);
 
@@ -485,7 +483,10 @@ void APortal::TeleportObject(AActor* actor)
 {
 	// Return if object is null.
 	if (actor == nullptr) return;
-
+	if (APortalCharacter* isChar = Cast<APortalCharacter>(actor))
+	{
+		isChar->SaveVelocity();
+	}
 	// Perform a camera cut so the teleportation is seamless with the render functions.
 	UPortalPlayer* portalPlayer = Cast<UPortalPlayer>(portalController->GetLocalPlayer());
 	CHECK_DESTROY(LogPortal, !portalPlayer, "TeleportObject: Portal player class couldnt be found in the portal %s.", *GetName());
@@ -504,7 +505,7 @@ void APortal::TeleportObject(AActor* actor)
 	// If its a player handle any extra teleporting functionality in the player class.
 	if (APortalCharacter* isChar = Cast<APortalCharacter>(actor))
 	{
-		isChar->PortalTeleport(pTargetPortal);
+		isChar->PortalTeleport(pTargetPortal, this);
 		//portalChar->ReleaseInteractable();
 	}
 	/*else
