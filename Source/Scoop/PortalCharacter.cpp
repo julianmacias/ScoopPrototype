@@ -55,9 +55,6 @@ void APortalCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 }
 
-void APortalCharacter::SaveVelocity() {
-	savedVelocity = GetCharacterMovement()->Velocity;
-}
 void APortalCharacter::PortalTeleport(APortal* targetPortal, APortal* originPortal)
 {
 	// Start timer to return the player to the correct orientation relative to the world.
@@ -66,18 +63,9 @@ void APortalCharacter::PortalTeleport(APortal* targetPortal, APortal* originPort
 	orientation = true;
 
 	FRotator currentOrientation = GetCapsuleComponent()->GetComponentRotation();
-	GetWorld()->GetFirstPlayerController()->SetControlRotation(currentOrientation);
-
-	FVector Dots;
-	Dots.X = FVector::DotProduct(savedVelocity, originPortal->GetActorForwardVector());
-	Dots.Y = FVector::DotProduct(savedVelocity, originPortal->GetActorRightVector());
-	Dots.Z = FVector::DotProduct(savedVelocity, originPortal->GetActorUpVector());
-
-	FVector NewVelocity = Dots.X * targetPortal->GetActorForwardVector()
-		+ Dots.Y * targetPortal->GetActorRightVector()
-		+ Dots.Z * targetPortal->GetActorUpVector();
-
-	GetMovementComponent()->Velocity = NewVelocity;
+	FRotator originalControllerRotation = GetWorld()->GetFirstPlayerController()->GetControlRotation();
+	FRotator fixedOrientation = FRotator(originalControllerRotation.Roll, currentOrientation.Yaw, originalControllerRotation.Pitch);
+	GetWorld()->GetFirstPlayerController()->SetControlRotation(fixedOrientation);
 }
 
 void APortalCharacter::ReturnToOrientation()

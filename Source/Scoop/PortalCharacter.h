@@ -37,7 +37,6 @@ private:
 	FRotator orientationAtStart; // Rotation of the capsule at the start of re-orientation.
 	float orientationStart; // Start time of the orientation update func.
 	bool orientation;
-	FVector savedVelocity;
 	float orientationCorrectionTime = 1.8f;
 
 protected:

@@ -11,6 +11,7 @@
 #include "Engine/Engine.h"
 #include "Camera/CameraComponent.h"
 #include "Engine/LocalPlayer.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "Math/Plane.h"
 #include "PortalPawn.h"
 #include "PortalCharacter.h"
@@ -483,10 +484,7 @@ void APortal::TeleportObject(AActor* actor)
 {
 	// Return if object is null.
 	if (actor == nullptr) return;
-	if (APortalCharacter* isChar = Cast<APortalCharacter>(actor))
-	{
-		isChar->SaveVelocity();
-	}
+
 	// Perform a camera cut so the teleportation is seamless with the render functions.
 	UPortalPlayer* portalPlayer = Cast<UPortalPlayer>(portalController->GetLocalPlayer());
 	CHECK_DESTROY(LogPortal, !portalPlayer, "TeleportObject: Portal player class couldnt be found in the portal %s.", *GetName());
@@ -505,6 +503,7 @@ void APortal::TeleportObject(AActor* actor)
 	// If its a player handle any extra teleporting functionality in the player class.
 	if (APortalCharacter* isChar = Cast<APortalCharacter>(actor))
 	{
+		isChar->GetMovementComponent()->Velocity = newLinearVelocity;
 		isChar->PortalTeleport(pTargetPortal, this);
 		//portalChar->ReleaseInteractable();
 	}
