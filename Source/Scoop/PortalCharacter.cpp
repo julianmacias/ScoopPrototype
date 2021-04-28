@@ -62,10 +62,18 @@ void APortalCharacter::PortalTeleport(APortal* targetPortal, APortal* originPort
 	orientationAtStart = GetCapsuleComponent()->GetComponentRotation();
 	orientation = true;
 
-	FRotator currentOrientation = GetCapsuleComponent()->GetComponentRotation();
+	/*FRotator currentOrientation = GetCapsuleComponent()->GetComponentRotation();
 	FRotator originalControllerRotation = GetWorld()->GetFirstPlayerController()->GetControlRotation();
 	FRotator fixedOrientation = FRotator(originalControllerRotation.Roll, currentOrientation.Yaw, originalControllerRotation.Pitch);
-	GetWorld()->GetFirstPlayerController()->SetControlRotation(fixedOrientation);
+	GetWorld()->GetFirstPlayerController()->SetControlRotation(fixedOrientation);*/
+	
+	//FRotator currentOrientation = GetCapsuleComponent()->GetComponentRotation();
+	//GetWorld()->GetFirstPlayerController()->SetControlRotation(currentOrientation);
+
+	/*FRotator currentOrientation = GetCapsuleComponent()->GetComponentRotation();
+	FRotator originalControllerRotation = GetWorld()->GetFirstPlayerController()->GetControlRotation();
+	FRotator fixedOrientation = FRotator(originalControllerRotation.Roll, currentOrientation.Yaw, originalControllerRotation.Pitch);
+	GetWorld()->GetFirstPlayerController()->SetControlRotation(fixedOrientation);*/
 }
 
 void APortalCharacter::ReturnToOrientation()
@@ -76,4 +84,7 @@ void APortalCharacter::ReturnToOrientation()
 	FQuat newOrientation = FQuat::Slerp(currentOrientation.Quaternion(), target, alpha);
 	GetCapsuleComponent()->SetWorldRotation(newOrientation.Rotator(), false, nullptr, ETeleportType::TeleportPhysics);
 	if (alpha >= 1.0f) orientation = false;
+
+	FRotator newControllerRotation = newOrientation.Rotator();
+	GetWorld()->GetFirstPlayerController()->SetControlRotation(newOrientation.Rotator());
 }
