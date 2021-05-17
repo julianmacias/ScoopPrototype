@@ -111,7 +111,8 @@ void APortal::Setup()
 	initialised = true;
 
 	// Init last pawn location.
-	lastPawnLoc = portalChar->camera->GetComponentLocation();
+	//lastPawnLoc = portalChar->camera->GetComponentLocation();
+	lastPawnLoc = portalChar->GetActorLocation();
 
 	// If playing game and is game world setup delegate bindings.
 	if (GetWorld() && GetWorld()->IsGameWorld())
@@ -186,7 +187,8 @@ void APortal::Tick(float DeltaTime)
 			UpdatePortalView();
 
 			// Check if the player needs teleporting through this portal.
-			if (LocationInsidePortal(portalChar->camera->GetComponentLocation()))
+			//if (LocationInsidePortal(portalChar->camera->GetComponentLocation()))
+			if (LocationInsidePortal(portalChar->GetActorLocation()))
 			{
 				// Update world offset to prevent clipping.
 				portalMaterial->SetScalarParameterValue("ScaleOffset", 1.0f);
@@ -388,7 +390,8 @@ void APortal::UpdatePortalView()
 void APortal::UpdateWorldOffset()
 {
 	// If the camera is within the portal box.
-	if (LocationInsidePortal(portalChar->camera->GetComponentLocation()))
+	//if (LocationInsidePortal(portalChar->camera->GetComponentLocation()))
+	if (LocationInsidePortal(portalChar->GetActorLocation()))
 	{
 		portalMaterial->SetScalarParameterValue("ScaleOffset", 1.0f);
 	}
@@ -401,7 +404,8 @@ void APortal::UpdateWorldOffset()
 void APortal::UpdatePawnTracking()
 {
 	// Check for when the pawn has passed through this portal between frames.
-	FVector currLocation = portalChar->camera->GetComponentLocation();
+	//FVector currLocation = portalChar->camera->GetComponentLocation
+	FVector currLocation = portalChar->GetActorLocation();
 	if (currLocation.ContainsNaN()) return;
 	FVector pointInterscetion;
 	FPlane portalPlane = FPlane(portalMesh->GetComponentLocation(), portalMesh->GetForwardVector());
@@ -420,7 +424,8 @@ void APortal::UpdatePawnTracking()
 	}
 
 	// Last pawn location.
-	lastPawnLoc = portalChar->camera->GetComponentLocation();
+	//lastPawnLoc = portalChar->camera->GetComponentLocation();
+	lastPawnLoc = portalChar->GetActorLocation();
 }
 
 void APortal::UpdateTrackedActors()
@@ -522,7 +527,8 @@ void APortal::TeleportObject(AActor* actor)
 	// Update the portal view and world offset for the target portal.
 	pTargetPortal->UpdateWorldOffset();
 	pTargetPortal->UpdatePortalView();
-	pTargetPortal->lastPawnLoc = portalChar->camera->GetComponentLocation();
+	//pTargetPortal->lastPawnLoc = portalChar->camera->GetComponentLocation();
+	pTargetPortal->lastPawnLoc = portalChar->GetActorLocation();
 
 	// Make sure the duplicate created is not hidden after teleported.
 	if (pTargetPortal->trackedActors.Contains(actor))
