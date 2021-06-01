@@ -259,7 +259,8 @@ void APortal::HideActor(AActor* actor, bool hide)
 {
 	if (actor->IsValidLowLevel())
 	{
-		TArray<UActorComponent*> comps = actor->GetComponentsByClass(UStaticMeshComponent::StaticClass());
+		TArray<UActorComponent*> comps;
+		actor->GetComponents(UStaticMeshComponent::StaticClass(), comps);
 		for (UActorComponent* comp : comps)
 		{
 			UStaticMeshComponent* staticComp = (UStaticMeshComponent*)comp;
@@ -561,7 +562,8 @@ void APortal::DeleteCopy(AActor* actorToDelete)
 				{
 					world->DestroyActor(isValid);
 					isValid = nullptr;
-					world->ForceGarbageCollection();
+					//world->ForceGarbageCollection();
+					GEngine->ForceGarbageCollection();
 				}
 			}
 		}
@@ -574,7 +576,8 @@ void APortal::CopyActor(AActor* actorToCopy)
 	// Create copy of the given actor.
 	FName newActorName = MakeUniqueObjectName(this, AActor::StaticClass(), "CoppiedActor");
 	AActor* newActor = NewObject<AActor>(this, newActorName, RF_NoFlags, actorToCopy);
-	TArray<UActorComponent*> foundStaticMeshes = newActor->GetComponentsByClass(UStaticMeshComponent::StaticClass());
+	TArray<UActorComponent*> foundStaticMeshes;
+	newActor->GetComponents(UStaticMeshComponent::StaticClass(), foundStaticMeshes);
 	newActor->RegisterAllComponents();
 
 	// If its the player disable any important functionality.
