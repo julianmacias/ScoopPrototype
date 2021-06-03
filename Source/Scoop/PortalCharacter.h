@@ -37,7 +37,7 @@ private:
 	FRotator orientationAtStart; // Rotation of the capsule at the start of re-orientation.
 	float orientationStart; // Start time of the orientation update func.
 	bool orientation;
-	float orientationCorrectionTime = 0.1f;
+	float orientationCorrectionTime = 0.05f;
 
 protected:
 	// Called when the game starts or when spawned
